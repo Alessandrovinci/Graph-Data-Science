@@ -10,7 +10,12 @@ To do so, I created two types of graphs:
 
 Given the created graphs, I was then able to apply two distinct clustering algorithms (Comunity Louvain and Core) to distinguish groups of similar nodes. This procedure was interesting to discover paths of action of the users that browse the website and to identify groups of users sharing similar behaviours.
 
-Lastly, I applied Node2Vec to extract the embeddings associated to each node within the graph and I used these arrays as input to compute the cosine similarity between nodes. This process allowed me to create a similarity tool to understand the most similar pages based on the users' interactions with them and without considering any information about their content.
+### Example
+![image](https://user-images.githubusercontent.com/49654710/201912638-deb9baa8-5b5c-4eda-9317-76a2db983bb9.png)
+
+
+
+Lastly, I applied Node2Vec to extract the embeddings associated to each node within the graph and I used these arrays as input to compute a similarity score between nodes. This process allowed me to create a similarity tool to understand the most similar pages based on the users' interactions with them and without considering any information about their content.
 
 Thank you for you attention
 
