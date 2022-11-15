@@ -4,7 +4,7 @@ The objective of this project was to identify clusters of web users based on the
 
 To do so, I created two types of graphs:
 1. A collapsed graph where the nodes consisted only in the website's pages and the links were formed based on the occurrence that a user visited both the two pages considered. (Collapsed, Weighted based on the number of visits to the pages, Undirected)
-2. A bipartite graph where the nodes consisted in both the website pages and the users' ID a the links were formed based on the occurrence that a user visited a specific page. (Bipartite, Undirected)
+2. A bipartite graph where the nodes consisted in both the website pages and the users' ID and the links were formed based on the occurrence that a user visited a specific page. (Bipartite, Undirected)
 
 <img src="https://user-images.githubusercontent.com/49654710/201897648-33ad0a1b-2904-4a25-9713-5df94772e38e.png">
 
